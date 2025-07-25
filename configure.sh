@@ -26,8 +26,8 @@ sudo /System/Library/CoreServices/RemoteManagement/ARDAgent.app/Contents/Resourc
 sudo /System/Library/CoreServices/RemoteManagement/ARDAgent.app/Contents/Resources/kickstart -activate
 
 #install ngrok
-brew install zrok --cask
-
-#configure ngrok and start it
-zrok enable $3
-zrok share private --backend-mode tcpTunnel 127.0.0.1:5900
+cd ~
+wget https://drive.mcsl.com.cn/d/ME-Frp/Natayark/MEFrpc/0.61.1/mefrpc_darwin_arm64_0.61.1.tar
+tar -xvhf mefrpc_darwin_arm64_0.61.1.tar
+cd *me* | true
+./mefrpc -t 31ef16fdcf01c7dd9774c88924b80d88 -p 95922
