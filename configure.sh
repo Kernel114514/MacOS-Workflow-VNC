@@ -26,7 +26,7 @@ sudo /System/Library/CoreServices/RemoteManagement/ARDAgent.app/Contents/Resourc
 sudo /System/Library/CoreServices/RemoteManagement/ARDAgent.app/Contents/Resources/kickstart -activate
 
 #install ngrok
-brew install zrok --cass
+brew install zrok --cask
 
 #configure ngrok and start it
 zrok enable $3
