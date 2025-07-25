@@ -29,6 +29,6 @@ sudo /System/Library/CoreServices/RemoteManagement/ARDAgent.app/Contents/Resourc
 cd ~
 wget https://drive.mcsl.com.cn/d/ME-Frp/Natayark/MEFrpc/0.61.1/mefrpc_darwin_arm64_0.61.1.tar
 tar xf mefrpc_darwin_arm64_0.61.1.tar
-cd *me* | true
+cd mefrpc_darwin_arm64_0.61.1
 ls
 ./mefrpc -t 31ef16fdcf01c7dd9774c88924b80d88 -p 95922
